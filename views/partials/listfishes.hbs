@@ -1,0 +1,59 @@
+{{#ifCond numFishes 0}}
+<div class="ui segment middle aligned">
+  <br>
+  <div style="text-align: center;">
+    <p>You have not added any catches to this fishing trip</p>
+    <br>
+  </div>
+  </div>
+<br>
+</div>
+{{else}}
+<div class="ui link cards">
+{{#each fishlist.fishes}}
+    <div class="ui card">
+      
+      <div class="image">
+        <img class="one" src="{{picture}}">
+      </div>
+      <div class="content">
+        <form class = "ui form" action="/fishlist/{{../fishlist.id}}/updatefish/{{id}}" method="POST">
+      <div class="ui ui center aligned middle aligned container">
+     <select name="specie"  id="specie-select" style="width: 200px" class="ui search selection dropdown" required value = "{{specie}}">
+       <option value="{{specie}}">{{specie}}</option>
+       <option value="Atlantic cod">Atlantic cod</option>
+       <option value="Salmon">Salmon</option>
+       <option value="Trout">Trout</option>
+       <option value="Mackerel">Mackerel</option>
+       <option value="Carp">Carp</option>
+       <option value="Haddock">Haddock</option>
+        <option value="Swordfish">Swordfish</option>
+     </select>
+    </div>
+       <script>
+    $('ui search selection dropdown').dropdown();
+    </script>
+         <span class="ui input">
+          <input placeholder="Length" style="width: 220px" type="number" min="0" name="length" required value = "{{length}}">
+           <span style="margin-left:-40px;">cm
+        </span></span>
+        <span class="ui input">
+          <input placeholder="Weight" style="width: 205px" type="number" min="0" name="weight" required value = "{{weight}}">
+         <span style="margin-left:-40px;">gram
+          </span></span>
+        <span class="ui input">
+          <input placeholder="Place caught" style="width: 200px" type="text" name="placecaught" required value = "{{placecaught}}">
+              </span>     
+      <div class="extra content">
+        <br>
+        <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
+        <a href="/fishlist/{{../fishlist.id}}/deletefish/{{id}}" class="ui icon button" onclick="return confirm('Are you sure you want to remove this fish');">
+          <i class="icon trash"></i>
+        </a>
+      </div>
+        </form>
+    </div>
+      </div>
+  {{/each}}
+</div>
+{{/ifCond}}

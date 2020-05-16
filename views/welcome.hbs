@@ -1,0 +1,131 @@
+
+{{> menu}}
+
+<section class="ui center aligned middle aligned segment">
+  <div class="ui column">
+    <h1 class="ui header">
+      Welcome to FishLogger, {{fullname}}!
+      </h1>
+      <p>
+        <div class="ui segment left aligned">
+        This app lets you log your fishingtrips and the fish you catch on those trips. FishLogger makes it easier for you to
+        keep track of where you catch the most fish, and where you catch which specie. 
+          <br><br><b>How to use?</b>
+         <br>1. Log your fishingtrip at the <a id="dashboard" class="item" href="/dashboard"> Dashboard</a>-page.
+         <br> 2. Enter in all the fish you caught on that  fishing trip. 
+          <br>3. You are all done!<br> Now you have an online database where you kan keep track of all the fish you catch.
+     </div>
+   <div class="ui large image">
+  <img src="https://res.cloudinary.com/fishlogger/image/upload/r_10/v1587853201/salmon_xxh3ye.jpg">
+  </div>
+    </p>
+  </div>
+<div class="ui segment middle aligned">
+<h3 class="ui center aligned header">Your fishing statistics:</h3>
+<div class="ui three statistics">
+    <div class="ui statistic">
+        <div class="value">
+           <i class="small ship icon"></i>
+            {{totalFishlists}}
+        </div>
+        <div class="label">
+            Fishing trips
+        </div>
+    </div>
+     <div class="ui statistic">
+        <div class="value">
+            {{avgnumFishes}}
+        </div>
+        <div class="label">
+            average amount of <br>fish caught in a trip
+        </div>
+    </div>
+    <div class="ui statistic">
+        <div class="value">
+             <i class="small utensils icon"></i>
+            {{totalFishes}}
+        </div>
+        <div class="label">
+            fishes caught
+        </div>
+    </div>
+</div>
+<div class="ui divider"></div>
+    {{#ifCond totalFishlists 0}}
+  <p>
+    <br>
+    It seems like you have'nt added any fishing trips yet. <br>Log your first fishing trip <a id="dashboard" class="item" href="/dashboard"> here. </a>
+    <br>
+<br> 
+  </p>
+  {{else}}
+  <div class="ui one statistics">
+   <div class="ui green statistic">
+        <div class="text value">
+            {{besttrip}} 
+        </div>
+        <div class="label" >
+          fish caught: {{bestlistnum}}<br>
+         is your luckiest fishing trip
+        </div>
+    </div>
+</div>
+   <div class="ui divider"></div>
+   <div class="ui one statistics">
+    <div class="ui red statistic">
+        <div class="text value">
+            {{worsttrip}} 
+        </div>
+        <div class="label" >
+         fish caught: {{worstlistnum}}<br>
+         is your unluckiest fishing trip
+        </div>
+    </div>
+  </div>
+   {{/ifCond}}
+   </div>
+<div class="ui segment middle aligned">
+<h3 class="ui center aligned header">Global statistics:</h3>
+<div class="ui two statistics">
+ 
+    <div class="ui statistic">
+        <div class="value">
+            {{totalFishesGlobal}}
+        </div>
+        <div class="label">
+            fishes has been caught<br> by all of our users
+        </div>
+    </div>
+   <div class="ui statistic">
+        <div class="value">
+            {{averageuseritem}}
+        </div>
+        <div class="label">
+            is the average amount of <br>fish caught by a user
+        </div>
+    </div>
+</div>
+<div class="ui divider"></div>
+<div class="ui two statistics">
+  <div class="ui red statistic">
+        <div class="text value">
+          <i class="frown icon"></i>
+            {{minItemsUser}}
+        </div>
+        <div class="label">
+            Has caught the least fish <br> and is our landlubber
+        </div>
+    </div>
+   
+     <div class="ui green statistic">
+        <div class="text value">
+           <i class="trophy icon"></i>
+          {{mostItemsUser}}
+        </div>
+        <div class="label">
+            Has caught the most fish <br> and is our MVP
+        </div>
+    </div>
+</div>
+  </div>
+</section>

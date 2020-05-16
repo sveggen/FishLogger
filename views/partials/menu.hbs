@@ -1,0 +1,15 @@
+<link id="favicon" rel="icon" href="https://cdn.glitch.com/b0d1000b-4bc5-4f96-aa3e-824f9115d07d%2Ffavicon-32x32.png?v=1587651220991" type="image/x-icon">
+<nav class="ui menu">
+  <header class="ui header item"> <a href="/welcome"> FishLogger </a></header>
+  <div class="right menu">
+    <span class="name">{{fullname}}</span>
+        <span class="profilepic"><img src="{{picture}}" class="ui avatar image"></span>
+    <a id="dashboard" class="item" href="/dashboard"> Dashboard  </a>
+    <a id="about" class="item" href="/about"> About </a>
+    <a id="logout" class="item" href="/logout"> Logout </a>
+  </div>
+</nav>
+
+<script>
+  $("#{{id}}").addClass("active item");
+</script>

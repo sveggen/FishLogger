@@ -1,0 +1,12 @@
+<form class="ui stacked segment form" action="/about/addcomment" method="POST">
+  <div class="field">
+    <label>Leave a comment for the Developer team down below:</label>
+    <div class="ui segment">
+    Commenting as: <b>{{firstname}}</b>
+      <span class="profilepic"><img src="{{picture}}" class="ui avatar image"></span>
+       </div>
+    <textarea rows="2" placeholder="Comment..." type="text" name="comment" autofocus required></textarea>
+  </div>
+  <button class="ui blue submit button">Post Comment</button>
+  </div>
+</form>

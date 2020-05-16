@@ -1,0 +1,76 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+  margin: 2em;;
+  background-image: url('https://cdn.glitch.com/b0d1000b-4bc5-4f96-aa3e-824f9115d07d%2FWebp.net-resizeimage.jpg?v=1587933772294');
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#readmore {
+  display: none;
+}
+
+#welcomeuser {
+  display: none;
+}
+
+#wrapper {
+    width: 500px;
+    border: 1px solid black;
+    overflow: hidden; 
+}
+#first {
+    float:left; 
+}
+#second {
+    float: left; 
+}
+
+#map {
+  .mapouter{position:relative;text-align:right;height:684px;width:685px;}.gmap_canvas {overflow:hidden;background:none!important;height:684px;width:685px;}
+}
+
+.name{
+  padding-top:20px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}
+
+.profilepic{
+  padding-top:15px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+}
+
+#dashboard:hover {
+  background-color: lightblue;
+   font-size: 110%;
+}
+#about:hover {
+  background-color: lightblue;
+   font-size: 110%;
+}
+#logout:hover {
+  background-color: lightcoral;
+  font-size: 110%;
+  color: white;
+}
+#login:hover {
+  background-color: lightblue;
+  font-size: 110%;
+}
+#signup:hover {
+  background-color: lightblue;
+     font-size: 110%;
+}
+
+
+
+
+

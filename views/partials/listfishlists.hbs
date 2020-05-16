@@ -1,0 +1,38 @@
+{{#ifCond totalFishlists 0}}
+<div class="ui segment middle aligned">
+  <br>
+  <div style="text-align: center;">
+    <p>Add your first fishing trip to start logging your catches...</p>
+    <br>
+  </div>
+  </div>
+<br>
+</div>
+{{else}}
+<div class="ui centered cards">
+  {{#each fishlists}}
+    <div class="ui card">
+      <div class="image">
+        <img src="{{picture}}">
+      </div>
+      <div class="content">
+        <a class="header">{{uppercase title}}</a>
+      </div>
+      <div class="extra content">
+        <a class="bold"><p>
+             Catches: {{fishes.length}}</p>
+        <div class="metadata">
+          <span class="date">Date: {{formatDate date}}</span>
+        </div></a>
+        <div class="ui divider"></div>
+        <a href="/fishlist/{{id}}" class="ui icon button">
+          <i class="icon folder open"></i>
+        </a>
+        <a href="/dashboard/deletefishlist/{{id}}" class="ui icon button" onclick="return confirm('Are you sure you want to remove this fishing trip?');">
+          <i class="icon trash"></i>
+        </a>
+      </div>
+    </div>
+  {{/each}}
+</div>
+{{/ifCond}}
