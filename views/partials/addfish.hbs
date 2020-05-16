@@ -1,0 +1,40 @@
+<form class="ui stacked segment form" action="/fishlist/{{fishlist.id}}/addfish" method="POST" enctype="multipart/form-data">
+  <div class="four fields">
+   <div class="ui ui center aligned middle aligned container">
+     <div class="field">
+      <label>Specie</label>
+     </div>
+     <select name="specie"  id="specie-select" class="ui search selection dropdown">
+       <option value="Atlantic cod">Atlantic cod</option>
+        <option value="Salmon">Salmon</option>
+       <option value="Trout">Trout</option>
+       <option value="Mackerel">Mackerel</option>
+       <option value="Carp">Carp</option>
+      <option value="Haddock">Haddock</option>
+        <option value="Swordfish">Swordfish</option>
+     </select>
+    </div>
+       <script>
+    $('#specie-select').dropdown();
+    </script>
+    </div>
+   <div class="four fields">
+     <div class="field">
+      <label>Weight in grams</label>
+      <input placeholder="Weight in grams" type="number" min="0" name="weight" required>
+    </div>
+  <div class="field">
+      <label>Length in cm</label>
+      <input placeholder="Length in cm" type="number" min="0" name="length" required>
+    </div>
+      <div class="field">
+      <label>Place caught</label>
+      <input placeholder="Place caught" type="text" name="placecaught" required>
+    </div>
+   <div class="field">
+      <label>Image</label>
+      <input placeholder="Image" type="file" name="picture" required>
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Fish</button>
+</form>

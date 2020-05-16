@@ -1,0 +1,33 @@
+{
+  "name": "fishlist-app",
+  "version": "0.0.1",
+  "description": "A little playlist maker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.17.1",
+    "winston": "^3.2.1",
+    "express-handlebars": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "uuid": "^3.4.0",
+    "lowdb": "^0.14.0",
+    "lodash": "^4.17.15",
+    "handlebars-form-helpers": "^0.1.4",
+    "express-fileupload": "^0.1.2",
+    "cloudinary": "^1.8.0",
+    "swag": "^0.7.0",
+    "bcrypt": "^4.0.1",
+    "croppie": "^2.6.4"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "comments": [
+    {
+      "id": "3b45f8c4-4e4a-40f9-b647-be56a08ea70b",
+      "userid": "3bd9a3f1-6b4b-4a4e-9a93-acd98e58db76",
+      "commenter": "Rosanne",
+      "date": "2020-04-23T08:15:08.257Z",
+      "comment": "Nice app!",
+      "profilepic": "http://res.cloudinary.com/fishlogger/image/upload/v1587629664/a7sgk32d4vdswl40khz5.jpg"
+    },
+    {
+      "id": "fd48318a-f17a-4bc6-87c3-f0b0150c5de2",
+      "userid": "b13b03e9-ab2d-4e19-a87e-a368d7682fad",
+      "commenter": "Frank",
+      "date": "2020-04-23T13:00:08.276Z",
+      "comment": "I really like this app!",
+      "profilepic": "http://res.cloudinary.com/fishlogger/image/upload/v1587603111/vyrymucmrkctozd4r9s9.jpg"
+    },
+    {
+      "id": "5f8907d1-5287-411f-8ea6-480741eaa473",
+      "userid": "efd3fe44-3d61-46a4-aadd-e87531c16333",
+      "commenter": "Ole",
+      "date": "2020-04-23T13:42:02.614Z",
+      "comment": "Great app for tracking how much luck you have on the sea!",
+      "profilepic": "http://res.cloudinary.com/fishlogger/image/upload/v1587648822/iokj6kslpafrqack1nri.webp"
+    },
+    {
+      "id": "7b6f1d1a-8bf9-4cf1-8b94-598605ff9db7",
+      "userid": "971b0b9b-b649-4ca1-9a7b-29c6570bb613",
+      "commenter": "Alexander",
+      "date": "2020-04-23T13:47:50.788Z",
+      "comment": "Thank you Markus and Billy, for creating FishLogger",
+      "profilepic": "http://res.cloudinary.com/fishlogger/image/upload/v1587649459/e9bhvhytzfkh6h9bkazg.jpg"
+    },
+    {
+      "id": "d614f74b-c8bc-44a1-bee0-9487a234fbde",
+      "userid": "bcdef03e-34a5-4cd4-8d73-ed9dec0fcd1c",
+      "commenter": "Harald",
+      "date": "2020-04-26T20:03:49.502Z",
+      "comment": "Exceptional app",
+      "profilepic": "http://res.cloudinary.com/fishlogger/image/upload/v1587931360/hfbxncicjuqul2hmkuqt.jpg"
+    },
+    {
+      "id": "af57237a-d378-4c25-ab87-9f62235dc8e3",
+      "userid": "f8a4b507-ab9c-48e8-8029-cd263d88adae",
+      "commenter": "Tess",
+      "date": "2020-04-27T12:40:58.307Z",
+      "comment": "Great app",
+      "profilepic": "http://res.cloudinary.com/fishlogger/image/upload/v1587991167/etzsybqlnlhacvpz4tnb.jpg"
+    },
+    {
+      "id": "1fda1cfc-51de-409e-adf7-52253837379a",
+      "userid": "e8cdbf31-287d-40c4-81c0-e439da72357e",
+      "commenter": "Mary",
+      "date": "2020-04-30T13:22:37.271Z",
+      "comment": "Excellent app",
+      "profilepic": "http://res.cloudinary.com/fishlogger/image/upload/v1588252835/p2cdqurhi8ugdusnie5e.jpg"
+    }
+  ]
+}

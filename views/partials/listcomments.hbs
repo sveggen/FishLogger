@@ -1,0 +1,21 @@
+{{#each comments }}
+  <section class="ui stacked segment">
+    <form class = "ui form" action="/about/editcomment/{{id}}" method="POST"
+      <b>{{commenter}}</b>
+      <span class="profilepic"><img src="{{profilepic}}" class="ui avatar image"></span> 
+<br><p style="font-size:11px">{{formatDate date}}<br>{{formatDateTime date}}</p>
+<div class="ui divider"></div>
+    {{#ifCond userid ../userid}}
+    <div class="ui segment">
+              <textarea rows="2" type="text" name="comment" >{{comment}}</textarea>
+      <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
+      <a href="/about/deletecomment/{{id}}" class="ui icon button" onclick="return confirm('Are you sure you want to remove this comment?');">
+      <i class="icon trash"></i></a>
+        </div>
+    {{else}}
+{{comment}} 
+   {{/ifCond}}
+    </form>
+  </section>
+{{/each}}
+

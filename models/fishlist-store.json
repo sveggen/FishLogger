@@ -1,0 +1,196 @@
+{
+  "fishlistCollection": [
+    {
+      "id": "7df276a0-a3a2-453b-a916-3ffbdf574ba2",
+      "userid": "b13b03e9-ab2d-4e19-a87e-a368d7682fad",
+      "title": "Hamresanden in Kristiansand",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587603852/n2i8fdy7jtr4i5eijxi4.jpg",
+      "date": "2020-04-23T01:04:12.389Z",
+      "fishes": [
+        {
+          "id": "6fdf5445-ac44-42ea-81dc-9f48957fc3f5",
+          "specie": "Atlantic cod",
+          "length": "25",
+          "weight": "200",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587604038/xlhmzgvvssmmjf8vzyrk.jpg",
+          "placecaught": "The Beach"
+        },
+        {
+          "id": "f2df6bd9-f979-409e-91ce-26829aae01ae",
+          "specie": "Mackerel",
+          "length": "20",
+          "weight": "150",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587604184/sartjqrcu1esgui8yq05.jpg",
+          "placecaught": "The Dock"
+        }
+      ]
+    },
+    {
+      "id": "e9c2c70c-f64c-484a-b049-a337830eafe9",
+      "userid": "b13b03e9-ab2d-4e19-a87e-a368d7682fad",
+      "title": "Grovikstranda in Kristiansand",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587604214/tscqn6u04qmfblmwjfig.jpg",
+      "date": "2020-04-23T01:10:14.558Z",
+      "fishes": [
+        {
+          "id": "3398e654-6cc8-440c-9d06-8078a1c4c34d",
+          "specie": "Mackerel",
+          "length": "20",
+          "weight": "120",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587604282/u5krqyiya1bi403lfdet.jpg",
+          "placecaught": "On the beach"
+        },
+        {
+          "id": "6cda5bd4-47b4-4eb4-aa38-7387f231c65a",
+          "specie": "Mackerel",
+          "length": "20",
+          "weight": "100",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587604329/kbidxmvgrtg8knmhfpbg.jpg",
+          "placecaught": "By the dock"
+        },
+        {
+          "id": "0cca7c61-98b9-4254-92d1-d544c8888856",
+          "specie": "Atlantic cod",
+          "length": "35",
+          "weight": "300",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587604403/bgezaitqe487eyaytdse.jpg",
+          "placecaught": "By the bridge"
+        }
+      ]
+    },
+    {
+      "id": "0c554834-efc9-46c7-9ba0-3ed690cb0acb",
+      "userid": "efd3fe44-3d61-46a4-aadd-e87531c16333",
+      "title": "Sveggesundet, Averøya",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587648990/phixz1vwqw3fn34vhfhn.jpg",
+      "date": "2020-04-23T13:36:30.676Z",
+      "fishes": [
+        {
+          "id": "5d6d8873-34a7-4a44-b096-31c5c1d836a5",
+          "specie": "Carp",
+          "length": "40",
+          "weight": "1500",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587649017/rw7qogrcgxptee6irscv.webp",
+          "placecaught": "The old dock"
+        },
+        {
+          "id": "8440ceaf-3f0a-47a7-873f-ff4dd3f6f3ea",
+          "specie": "Atlantic cod",
+          "length": "60",
+          "weight": "2000",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587649045/l130qvzrvio8oaqjq5qj.jpg",
+          "placecaught": "The port"
+        },
+        {
+          "id": "878bc0e7-ace4-4a39-a21f-5033a163cbbb",
+          "specie": "Haddock",
+          "length": "70",
+          "weight": "4000",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587649075/lhxohvwam2b6hkfbirnh.jpg",
+          "placecaught": "The new dock"
+        },
+        {
+          "id": "03136c73-f1fc-4993-85a8-e443529b1f1b",
+          "specie": "Swordfish",
+          "length": "100",
+          "weight": "2000",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587649106/gg96lle90lzuv9mctho1.jpg",
+          "placecaught": "The new dock"
+        }
+      ]
+    },
+    {
+      "id": "218d244d-728f-4477-9d8d-ff316576d479",
+      "userid": "efd3fe44-3d61-46a4-aadd-e87531c16333",
+      "title": "Langøya, Kristiansund",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587649182/v0pupzisqemljj9vulkf.jpg",
+      "date": "2020-04-23T13:39:42.404Z",
+      "fishes": [
+        {
+          "id": "d416a1f6-ca1a-4da6-aa8b-d0b7e10eee7a",
+          "specie": "Mackerel",
+          "length": "20",
+          "weight": "200",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587649208/loxyqaalkaemdoqv58ub.jpg",
+          "placecaught": "By the cliffs"
+        }
+      ]
+    },
+    {
+      "id": "dbf16fa7-f964-4bcf-80de-e8751020ca7c",
+      "userid": "971b0b9b-b649-4ca1-9a7b-29c6570bb613",
+      "title": "Solvika",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587931111/k3dgucleomhke5bjnhvt.jpg",
+      "date": "03/10/2020",
+      "fishes": [
+        {
+          "id": "887a351e-62ea-4332-99e2-815b6e4dd728",
+          "specie": "Mackerel",
+          "length": "25",
+          "weight": "150",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587931153/nl8tqydqgpmbigsclywm.jpg",
+          "placecaught": "By the big tree"
+        }
+      ]
+    },
+    {
+      "id": "a46b0b0d-5ebd-434c-81d8-a16b0335f6c7",
+      "userid": "f8a4b507-ab9c-48e8-8029-cd263d88adae",
+      "title": "Beautiful Day",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587991909/wxtpyprwlvq8rghcchg3.jpg",
+      "date": "04/27/2020",
+      "fishes": [
+        {
+          "id": "0008b5d4-7caa-47da-844c-79aa7780da3c",
+          "specie": "Salmon",
+          "length": "2",
+          "weight": "3",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587991945/ap4oynb0gceizdxhbjjl.jpg",
+          "placecaught": "Salthill"
+        }
+      ]
+    },
+    {
+      "id": "2f69e5cb-30c2-4f9a-9104-c6de198cda6b",
+      "userid": "e8cdbf31-287d-40c4-81c0-e439da72357e",
+      "title": "Cork",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1588252897/fyn51vtyxaqoqegbxcuh.jpg",
+      "date": "04/30/2020",
+      "fishes": [
+        {
+          "id": "4df25870-f49f-4eac-a643-3bf94862c8dc",
+          "specie": "Salmon",
+          "length": "12",
+          "weight": "300",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1588252927/omssfug0zdvkadl6extd.jpg",
+          "placecaught": "Youghal"
+        }
+      ]
+    },
+    {
+      "id": "45d44c6c-677d-460f-a13f-fc4a1e918274",
+      "userid": "e8cdbf31-287d-40c4-81c0-e439da72357e",
+      "title": "Test",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1588254723/iileujyxmmouc3pdcvlc.jpg",
+      "date": "04/30/2020",
+      "fishes": [
+        {
+          "id": "c9cc775e-8fff-4953-b6bb-f4a403bc3cb8",
+          "specie": "Haddock",
+          "length": "1",
+          "weight": "1000",
+          "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1588254756/ettiwwrhvdfjkz10l76f.jpg",
+          "placecaught": "Salthill"
+        }
+      ]
+    },
+    {
+      "id": "fb90966b-7be9-4d9c-99ef-05978aeef030",
+      "userid": "321eaa81-0b11-4100-a87d-0e0c6a7f24ae",
+      "title": "Grovika",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1589494658/f01vxiium6d4wonvcghm.png",
+      "date": "05/13/2020",
+      "fishes": []
+    }
+  ]
+}

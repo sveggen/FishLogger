@@ -1,0 +1,28 @@
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="croppie.css" />
+<script src="croppie.js"></script>
+<form class="ui stacked segment form" action="/dashboard/addfishlist" method="POST" enctype="multipart/form-data">
+  <div class="three fields">
+    <div class="field">
+      <label>Location of fishing trip</label>
+      <input placeholder="Location" type="text" name="title" autofocus required>
+    </div>
+    <div class="field">
+      <label>Add a picture from the fishing trip</label>
+      <input placeholder="Image" type="file" name="picture" required>
+    </div>
+    <div class="field">
+       <label>Add the date of your fishing trip</label>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker({ maxDate: '0' });})
+  </script>
+<input type="text" id="datepicker" name="date" placeholder="MM/DD/YYYY" required autocomplete="off"></p>
+    </div>
+  </div>
+</div>
+  <button class="ui blue submit button">Add Fishing Trip</button>
+</form>

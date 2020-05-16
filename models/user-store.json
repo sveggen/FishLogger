@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "firstName": "Frank",
+      "lastName": "Abagnale",
+      "email": "frank@fisherman.com",
+      "password": "$2b$10$gVSdTs/EpjXGfH9/9T/u7Obg0of7m9xZJPRyWNfqYq7.ntY5cIrA.",
+      "id": "b13b03e9-ab2d-4e19-a87e-a368d7682fad",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587603111/vyrymucmrkctozd4r9s9.jpg"
+    },
+    {
+      "firstName": "Rosanne",
+      "lastName": "Birney",
+      "email": "rb@gmail.com",
+      "password": "$2b$10$M7I.X8FPljvQQqNwUkw9KeXbOSC4LUTxJypWob4EP3GCeBe3YfoLG",
+      "id": "3bd9a3f1-6b4b-4a4e-9a93-acd98e58db76",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587629664/a7sgk32d4vdswl40khz5.jpg"
+    },
+    {
+      "firstName": "Ole",
+      "lastName": "Hanssen",
+      "email": "ole@hanssen.com",
+      "password": "$2b$10$uFDWtJ3jOfl.E4PZzYwlfubYDbVihELiyGaIRqkfDszULosbem8Cu",
+      "id": "efd3fe44-3d61-46a4-aadd-e87531c16333",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587648822/iokj6kslpafrqack1nri.webp"
+    },
+    {
+      "firstName": "Alexander",
+      "lastName": "Xanthopoulos",
+      "email": "alexander@hotmail.com",
+      "password": "$2b$10$UiusizOMHV4hraS64IlLgud8m7U/jJgTj1XZIpi6AmthJUMuj94OO",
+      "id": "971b0b9b-b649-4ca1-9a7b-29c6570bb613",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587649459/e9bhvhytzfkh6h9bkazg.jpg"
+    },
+    {
+      "firstName": "Harald",
+      "lastName": "Rex",
+      "email": "harald@kongehuset.no",
+      "password": "$2b$10$6IMNO./LLQL4hVmarebchuGYIEdffMGdhTm6R47JKIO7AgmKrNVYa",
+      "id": "bcdef03e-34a5-4cd4-8d73-ed9dec0fcd1c",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587931360/hfbxncicjuqul2hmkuqt.jpg"
+    },
+    {
+      "firstName": "Tess",
+      "lastName": "Wall",
+      "email": "twall@wit.ie",
+      "password": "$2b$10$csqxb84UhNb7/Oazuuu9Le6XBfqHt5bmyONn0bSGIZL7eTvPraXAq",
+      "id": "f8a4b507-ab9c-48e8-8029-cd263d88adae",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1587991167/etzsybqlnlhacvpz4tnb.jpg"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mlyng@wit.ie",
+      "password": "$2b$10$EVTmf.8AUrlHjXgcQPNHfOqwaaPj9H/UzRfUJSGNZrU1iAvjSoDea",
+      "id": "e8cdbf31-287d-40c4-81c0-e439da72357e",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1588252835/p2cdqurhi8ugdusnie5e.jpg"
+    },
+    {
+      "firstName": "Markus",
+      "lastName": "Sveggen",
+      "email": "rogaland@protonmail.com",
+      "password": "$2b$10$xrtveONgSCC8l2QptjEfUeTBOJalye2hdwDqAH5L7SvD.qv3xt8z2",
+      "id": "89f337da-76b6-4c15-a00e-5ed0285819ae",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1589494469/toqbsaflnwcst38yunss.png"
+    },
+    {
+      "firstName": "Markus",
+      "lastName": "Sveggen",
+      "email": "markus@markus.com",
+      "password": "$2b$10$.gz.RxtdzX6N0LfZCD6qrO6OXPetc1GWf9N3/GL5KdzMiTl5zht1W",
+      "id": "321eaa81-0b11-4100-a87d-0e0c6a7f24ae",
+      "picture": "http://res.cloudinary.com/fishlogger/image/upload/v1589494621/ydmx6vf37sb74htzy2ks.png"
+    }
+  ]
+}
