@@ -19,7 +19,7 @@
     "express-fileupload": "^0.1.2",
     "cloudinary": "^1.8.0",
     "swag": "^0.7.0",
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.0.0",
     "croppie": "^2.6.4"
   },
   "engines": {
